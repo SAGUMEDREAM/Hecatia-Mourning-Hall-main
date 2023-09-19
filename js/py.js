@@ -1,9 +1,9 @@
-﻿var sm, b, al, cx, ar, value, ad, bs, cs, dx, dy, sinv, bass = 1,
+var sm, b, al, cx, ar, value, ad, bs, cs, dx, dy, sinv, bass = 1,
 	treble = 1, audioPlayer, userAgent = navigator.userAgent;
 
 function ld() {
 	console.log("Load Done");
-	console.log("%c欢迎来到Mante的奇妙灵堂 ", "font-family: dengxian;font-weight: 300;color: red;font-size: 100px;text-shadow: 0px 0px 6px #CCC;");
+	console.log("%c欢迎来到李浩宇的奇妙灵堂 ", "font-family: dengxian;font-weight: 300;color: red;font-size: 100px;text-shadow: 0px 0px 6px #CCC;");
 	if (userAgent.indexOf("Firefox") > -1) {
 	} else {
 		$('#sb').css('filter', 'saturate(0)');
